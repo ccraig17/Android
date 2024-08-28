@@ -5,8 +5,8 @@
         <!--<item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-
     <style name="Theme.InformationBook" parent="Base.Theme.InformationBook" />
+
     <style name="Circle">
         <item name="cornerSize">50%</item>
     </style>

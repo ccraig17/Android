@@ -1,14 +1,15 @@
 package com.craig.informationbook.adaptor;
 
+
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-;import com.craig.informationbook.fragments.Leaders.FragmentEWilliams;
+import com.craig.informationbook.fragments.Leaders.FragmentEWilliams;
 import com.craig.informationbook.fragments.Leaders.FragmentTinubu;
-
 public class ViewPagerAdapterLeaders extends FragmentStateAdapter {
 
     public ViewPagerAdapterLeaders(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {

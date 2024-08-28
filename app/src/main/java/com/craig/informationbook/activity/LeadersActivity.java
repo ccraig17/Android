@@ -37,7 +37,6 @@ public class LeadersActivity extends AppCompatActivity {
                     case 1:
                         tab.setText("Dr. Tinubu");
                         break;
-
                 }
             }
         });
