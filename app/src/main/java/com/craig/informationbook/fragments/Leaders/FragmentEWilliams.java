@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.craig.informationbook.R;
+import com.google.android.material.imageview.ShapeableImageView;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
@@ -20,7 +21,7 @@ public class FragmentEWilliams extends Fragment {
     public static FragmentEWilliams newInstance(){
         return new FragmentEWilliams();
     }
-    private ImageView imageViewWilliams;
+    private ShapeableImageView imageViewWilliams;
     private ProgressBar progressBarWilliams;
 
     @Nullable

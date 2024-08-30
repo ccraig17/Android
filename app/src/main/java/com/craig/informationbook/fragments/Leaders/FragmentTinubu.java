@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
@@ -18,7 +19,7 @@ public class FragmentTinubu extends Fragment {
    public static FragmentTinubu newInstance(){
        return new FragmentTinubu();
    }
-    private ShapeableImageView imageViewTinubu;
+    private ImageView imageViewTinubu;
     private ProgressBar progressBarTinubu;
 
     @Nullable
