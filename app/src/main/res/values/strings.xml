@@ -106,12 +106,43 @@
 
     </string>
     <string name="tinubu">
+        <b>Name</b>: \t\t\t\tBola Tinubu\n
+        <b>Title</b>: \t\t\t\t\t\tPresident\n
+        <b>Born</b>: \t\t\t\t\tMarch 20th 1952\n
+        <b>Political Party</b>: All Progressive Congress\n\n
         \t\t\t Bola Ahmed Adekunle Tinubu GCFR (born 29 March 1952) is a Nigerian politician who is the 16th and current president of Nigeria. He was the governor of Lagos State from 1999 to 2007, and senator for Lagos West in the Third Republic.\n\n
 \t\t\t Tinubu spent his early life in southwestern Nigeria and later moved to the United States where he studied accounting at Chicago State University. He returned to Nigeria in the early 1990s and was employed by Mobil Nigeria as an accountant, before entering politics as a Lagos West senatorial candidate in 1992 under the banner of the Social Democratic Party. After the military head of state Sani Abacha dissolved the Senate in 1993, Tinubu became an activist campaigning for the return of democracy as a part of the National Democratic Coalition movement.\n\n
 \t\t\t In the first post-transition Lagos State gubernatorial election, Tinubu won by a wide margin as a member of the Alliance for Democracy. Four years later, he won re-election to a second term. After leaving office in 2007, he played a key role in the formation of the All Progressives Congress in 2013. In 2023, he was elected president of Nigeria.\n\n
-\t\t\t<b> Background</b>:\t\tTinubu was born in Lagos into the merchant family of Abibatu Mogaji, the Ìyál\'ọ́jà of Lagos. He is generally accepted in reliable sources to have been born in 1952; this year of birth is sometimes disputed by political opponents, who argue that he is much older. Some reliable sources note that his age has not been verified.
+\t\t\t<b> Background</b>:\t\tTinubu was born in Lagos into the merchant family of Abibatu Mogaji, the Ìyál\'ọ́jà of Lagos. He is generally accepted in reliable sources to have been born in 1952; this year of birth is sometimes disputed by political opponents, who argue that he is much older. Some reliable sources note that his age has not been verified.\n\n
 \t\t\t<b>Education</b>:\t\tTinubu attended St. John\'s Primary School, Aroloya, Lagos before proceeding to Children Home School in Ibadan. He completed undergraduate studies in the United States, first at Richard J. Daley College in Chicago and then at Chicago State University. He graduated in 1979 with a Bachelor of Science degree in Accounting.\n\n
 \t\t\t<b>Professional Career</b>: \t\tTinubu worked as an accountant for the American companies Arthur Andersen, Deloitte and GTE Services Corporation. After returning to Nigeria in 1983, he joined Mobil Oil Nigeria, and later became a company executive.\n\n
+    </string>
+
+    <string name="holness">
+        <b> Name</b>: \t\t\t\t\tAndrew Holness\n
+        <b> Title</b>: \t\t\t\t\t\tPrime Minister\n
+        <b> Born</b>: \t\t\t\t\t\tJuly 22nd 1977\n
+        <b> Political Party</b>: Jamaica Labour Party (JLP)\n\n
+        \t\t\t\t In October 2011, at the age of 39, Holness became the youngest person ever to be prime minister in Jamaica\'s history. In March 2016, aged 43, he became the youngest to ever be elected prime minister. He is also the first prime minister to have been born after Jamaica gained independence in 1962. He is currently the longest serving prime minister from the Jamaica Labour Party.\n\n
+        \t\t\t\t Holness previously served as prime minister from 23 October 2011 to 5 January 2012. He succeeded Bruce Golding as prime minister, and decided to go to the polls in the 29 December 2011 general election in an attempt to get his own mandate from the Jamaican electorate. He failed in that bid, however, losing to the People\'s National Party led by Portia Simpson-Miller, with the PNP gaining 42 seats to the JLP\'s 21. Following that defeat, Holness served as Leader of the Opposition from January 2012 to March 2016, when he once again assumed the position of prime minister. In 2020, the Labour Party won a landslide in another general election, and on 7 September Holness was sworn in for another term as prime minister.\n\n
+    </string>
+
+    <string name="akufo">
+        <b> Name</b>: \t\t\tNana Akufo-Addo\n
+        <b> Title</b>: \t\t\t\t\tPresident\n
+        <b> Born</b>: \t\t\t\t\tMarch 29th 1944\n
+        <b> Political Party</b>: New Patriotic Party\n\n
+        \t\t\t\tNana Addo Dankwa Akufo-Addo born 29 March 1944 is a Ghanaian politician who has served as the president of Ghana since 2017. He previously served as Attorney General from 2001 to 2003 and as Minister for Foreign Affairs from 2003 to 2007 under the Kufuor-led administration.\n\n
+        \t\t\t\tHe was chosen as the presidential candidate of the New Patriotic Party for a third time for the 2016 general elections, and this time he defeated incumbent Mahama in the first round (winning with 53.85% of the votes), which marked the first time in a Ghanaian presidential election that an opposition candidate won a majority outright in the first round. It was also the first time that an opposition candidate had unseated an incumbent president. He again secured an outright majority in the first round of the 2020 general elections (winning with 51.59% of the vote), defeating Mahama for a second time.\n\n
+        \t\t\t\tNana Addo Dankwa Akufo-Addo was born to the prominent Ofori-Atta family as the son of Adeline and Edward Akufo-Addo. His father Edward Akufo-Addo from Akropong-Akuapem was Ghana\'s third Chief Justice from 1966 to 1970, chairman of the 1967–68 Constitutional Commission and the non-executive president of Ghana from 1970 till 1972. Akufo-Addo\'s maternal grandfather was Nana Sir Ofori Atta, King of Akyem Abuakwa, who was a member of the executive council of the governor of the Gold Coast before Ghana\'s independence. He is a nephew of Kofi Asante Ofori-Atta and William Ofori Atta. His granduncle was J. B. Danquah, another member of The Big Six.\n\n
+    </string>
+    <string name="deSousa">
+        <b>Name</b>:\t\t\t\tMarcelo Rebelo de Sousa\n
+        <b>Title</b>: \t\t\t\tPresident\n
+        <b>Born</b>:\t\t\t\tDecember 12th 1948\n
+        <b>Political Party</b>: Social Democratic Party\n\n
+        \t\t\t\tBorn in Lisbon, Marcelo Rebelo de Sousa is the eldest son of Baltasar Rebelo de Sousa (1921–2001) and his wife Maria das Neves Fernandes Duarte (1921–2003). He has claimed that his mother had Jewish ancestry. He is named after Marcelo Caetano, the last prime minister of the Estado Novo regime and a friend of his father.\n\n
+        \t\t\t\tMarcelo Rebelo de Sousa started his career during the Estado Novo as a lawyer, and later as a journalist. He joined the Popular Democratic Party, becoming a Deputy to the Assembly of the Republic. During that time, he helped draft Portugal\'s constitution in 1976. Later he rose to Minister of Parliamentary Affairs under Prime Minister Francisco Pinto Balsemão. Together with him he was a co-founder, Director and Administrator of the Expresso newspaper, owned by Pinto Balsemão. He was also a founder of Sedes. He worked with another newspaper, Semanário, between 1983 and 1987. He started as a political analyst and pundit on the radio broadcaster TSF with his Exams, in which he gave marks (0 to 20) to the main political players.\n\n
     </string>
 
     </resources>

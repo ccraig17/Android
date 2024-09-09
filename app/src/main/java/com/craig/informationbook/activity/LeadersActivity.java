@@ -37,6 +37,15 @@ public class LeadersActivity extends AppCompatActivity {
                     case 1:
                         tab.setText("Dr. Tinubu");
                         break;
+                    case 2:
+                        tab.setText("Andrew Holness");
+                        break;
+                    case 3:
+                        tab.setText("Nana Akufo Addo");
+                        break;
+                    case 4:
+                        tab.setText("Marcelo Rebelo de Sousa");
+                        break;
                 }
             }
         });
