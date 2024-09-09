@@ -10,4 +10,8 @@
     <style name="Circle">
         <item name="cornerSize">50%</item>
     </style>
+
+    <style name="roundedProfileImage">
+        <item name="cornerSize">51%</item>
+    </style>
 </resources>
