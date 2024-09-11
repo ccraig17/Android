@@ -46,6 +46,9 @@ public class WondersActivity extends AppCompatActivity {
                     case 3:
                         tab.setText("Colosseum");
                         break;
+                    case 4:
+                        tab.setText("Petra");
+                        break;
                 }
             }
         });

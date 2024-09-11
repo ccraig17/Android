@@ -9,6 +9,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 import com.craig.informationbook.fragments.Wonders.FragmentChrisRedeemer;
 import com.craig.informationbook.fragments.Wonders.FragmentColosseum;
 import com.craig.informationbook.fragments.Wonders.FragmentGreatWall;
+import com.craig.informationbook.fragments.Wonders.FragmentPetra;
 import com.craig.informationbook.fragments.Wonders.FragmentTajMahal;
 
 public class ViewPagerAdapterWonders extends FragmentStateAdapter {
@@ -33,6 +34,9 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
             case 3:
                 fragment = FragmentColosseum.newInstance();
                 break;
+            case 4:
+                fragment = FragmentPetra.newInstance();
+                break;
             default:
                 return null;
         }
@@ -40,6 +44,6 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
     }
     @Override
     public int getItemCount(){
-        return 4;
+        return 5;
     }
 }
