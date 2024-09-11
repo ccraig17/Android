@@ -37,6 +37,12 @@ public class WondersActivity extends AppCompatActivity {
                     case 0:
                         tab.setText("Great Wall Of China");
                         break;
+                    case 1:
+                        tab.setText("Taj Mahal");
+                        break;
+                    case 2:
+                        tab.setText("Christ The Redeemer");
+                        break;
                 }
             }
         });

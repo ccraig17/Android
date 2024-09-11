@@ -5,7 +5,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import com.craig.informationbook.fragments.Wonders.FragmentChrisRedeemer;
 import com.craig.informationbook.fragments.Wonders.FragmentGreatWall;
+import com.craig.informationbook.fragments.Wonders.FragmentTajMahal;
 
 public class ViewPagerAdapterWonders extends FragmentStateAdapter {
     public ViewPagerAdapterWonders(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
@@ -20,6 +23,12 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
             case 0:
                 fragment = FragmentGreatWall.newInstance();
                 break;
+            case 1:
+                fragment = FragmentTajMahal.newInstance();
+                break;
+            case 2:
+                fragment = FragmentChrisRedeemer.newInstance();
+                break;
             default:
                 return null;
         }
@@ -27,6 +36,6 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
     }
     @Override
     public int getItemCount(){
-        return 1;
+        return 3;
     }
 }
