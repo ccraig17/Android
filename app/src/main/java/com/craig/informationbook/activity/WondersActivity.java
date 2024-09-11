@@ -43,6 +43,9 @@ public class WondersActivity extends AppCompatActivity {
                     case 2:
                         tab.setText("Christ The Redeemer");
                         break;
+                    case 3:
+                        tab.setText("Colosseum");
+                        break;
                 }
             }
         });
