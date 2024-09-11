@@ -3,6 +3,7 @@
     <string name="seven_wonders_of_the_world">Seven Wonders Of The World</string>
     <string name="country_flag">Country Flag</string>
 
+    <!-- Countries -->
     <string name="trinidad_and_tobago">
             <b> Capital</b>: \t\t\t\t\t\tPort Of Spain \n
             <b>Largest City</b>:\t\t\t\t\t\tChaguanas \n
@@ -51,7 +52,6 @@
 
 \n\n\t\t\t\t\t Jamaica is an upper-middle-income country with an economy heavily dependent on tourism; it has an average of 4.3 million tourists a year. The country performs favourably in measures of press freedom, democratic governance and sustainable well-being. Jamaica is a parliamentary constitutional monarchy with power vested in the bicameral Parliament of Jamaica, consisting of an appointed Senate and a directly elected House of Representatives.  Andrew Holness has served as Prime Minister of Jamaica since March 2016. As a Commonwealth realm, with Charles III as its king, the appointed representative of the Crown is the Governor-General of Jamaica, an office held by Patrick Allen since 2009.
     </string>
-
     <string name="ghana">
     <b> Capital</b>: \t\t\t\t\t\tAccra \n
     <b>Largest City</b>:\t\t\t\t\t\tAccra \n
@@ -65,21 +65,16 @@
 
     \n\n\t\t\t\t\t Ghana is a multi-ethnic country with linguistic and religious groups; while the Akan are the largest ethnic group, they constitute a plurality. Most Ghanaians are Christians (71.3%); almost a fifth are Muslims; a tenth practice traditional faiths or report no religion. Ghana is a unitary constitutional democracy led by a president who is head of state and head of government. For political stability in Africa, Ghana ranked seventh in the 2012 Ibrahim Index of African Governance and fifth in the 2012 Fragile States Index. It has maintained since 1993 one of the freest and most stable governments on the continent, and it performs relatively well in healthcare, economic growth, and human development, so that it has a significant influence in West Africa and Africa as a whole. Ghana is highly integrated in international affairs, being a founding member of the Non-Aligned Movement and the African Union, and a member of the Economic Community of West African States, the Group of 24 and the Commonwealth of Nations.
 </string>
-
     <string name="portugal">
 	<b> Capital </b>: \t\t\t\t\t\tLisbon \n
 	<b>Largest City</b>: \t\t\t\t\t\tLisbon \n
 	<b>Official Language</b>: \t\t\tPortuguese \n
 	<b>Total Area </b>: \t\t\t\t\t\t\t35,610 sq mi \n
 	<b>Currency </b>: \t\t\t\t\t\t\t\tEUR \n\n
-
 \t\t\t\t\tAs one of the oldest countries in Europe, its territory has been continuously settled and fought over since prehistoric times. The territory was inhabited by the Celtic and Iberian peoples. It was later ruled by the Romans, followed by the invasions of Germanic peoples together with the Alans and later the Moors, who were eventually expelled during the Reconquista. First founded as a county within the Kingdom of León in 868, Portugal formally became an independent kingdom with the Treaty of Zamora in 1143.\n\n
-
 \t\t\t\t\tDuring the Age of Discovery, particularly in the 15th and 16th centuries, Portugal established one of the longest-lived maritime and commercial empires, becoming one of the main economic and political powers of the time.[15] By the early 19th century, events such as the 1755 Lisbon earthquake, the country\'s occupation during the Napoleonic Wars, and the resulting independence of Brazil in 1822 led to a marked decay of Portugal\'s prior opulence.[16] This was followed by the civil war between liberal constitutionalists and conservative absolutists over royal succession from 1828 to 1834. The 1910 revolution deposed Portugal\'s monarchy and established the democratic but unstable Portuguese First Republic, later superseded by the authoritarian regimes of Ditadura Nacional (National Dictatorship) and Estado Novo (New State). Democracy was restored after the Carnation Revolution (1974), ending the Portuguese Colonial War and eventually losing its remaining colonial possessions.\n\n
-
 \t\t\t\tPortugal has had a profound cultural, architectural, and linguistic influence, with a legacy of around 300 million Portuguese speakers around the world. Today, it is a developed country with an advanced economy relying chiefly upon services, industry, and tourism. Portugal is a member of the United Nations, the European Union, the Schengen Area, and the Council of Europe, was one of the founding members of NATO, the eurozone, the OECD, and the Community of Portuguese Language Countries.\n\n
 </string>
-
     <string name="japan">
     <b> Capital</b>: \t\t\t\t\t\Tokyo \n
     <b>Largest City</b>: \t\t\tTokyo\n
@@ -91,8 +86,8 @@
     \t\t\t\tJapan is a constitutional monarchy with a bicameral legislature, the National Diet. A great power and the only Asian member of the G7, Japan has constitutionally renounced its right to declare war, but maintains one of the world\'s strongest militaries. A highly developed country with one of the world\'s largest economies, Japan is a global leader in science and technology and the automotive, robotics, and electronics industries. It has one of the world\'s highest life expectancies, though it is undergoing a population decline. Japan\'s culture is well known around the world, including its art, cuisine, film, music, and popular culture, which includes prominent comics, animation, and video game industries.\n\n
 </string>
 
+<!-- Leaders -->
     <string name="leaders">Leaders</string>
-
         <string name="eric_eustace_williams">
             <b> Name</b>: \t\t\t\t\t\t\Dr. Eric Eustace Williams\n
             <b> Title</b>: \t\t\t\t\t\t\t(First) Prime Minister\n
@@ -126,7 +121,6 @@
         \t\t\t\t In October 2011, at the age of 39, Holness became the youngest person ever to be prime minister in Jamaica\'s history. In March 2016, aged 43, he became the youngest to ever be elected prime minister. He is also the first prime minister to have been born after Jamaica gained independence in 1962. He is currently the longest serving prime minister from the Jamaica Labour Party.\n\n
         \t\t\t\t Holness previously served as prime minister from 23 October 2011 to 5 January 2012. He succeeded Bruce Golding as prime minister, and decided to go to the polls in the 29 December 2011 general election in an attempt to get his own mandate from the Jamaican electorate. He failed in that bid, however, losing to the People\'s National Party led by Portia Simpson-Miller, with the PNP gaining 42 seats to the JLP\'s 21. Following that defeat, Holness served as Leader of the Opposition from January 2012 to March 2016, when he once again assumed the position of prime minister. In 2020, the Labour Party won a landslide in another general election, and on 7 September Holness was sworn in for another term as prime minister.\n\n
     </string>
-
     <string name="akufo">
         <b> Name</b>: \t\t\tNana Akufo-Addo\n
         <b> Title</b>: \t\t\t\t\tPresident\n
@@ -143,6 +137,16 @@
         <b>Political Party</b>: Social Democratic Party\n\n
         \t\t\t\tBorn in Lisbon, Marcelo Rebelo de Sousa is the eldest son of Baltasar Rebelo de Sousa (1921–2001) and his wife Maria das Neves Fernandes Duarte (1921–2003). He has claimed that his mother had Jewish ancestry. He is named after Marcelo Caetano, the last prime minister of the Estado Novo regime and a friend of his father.\n\n
         \t\t\t\tMarcelo Rebelo de Sousa started his career during the Estado Novo as a lawyer, and later as a journalist. He joined the Popular Democratic Party, becoming a Deputy to the Assembly of the Republic. During that time, he helped draft Portugal\'s constitution in 1976. Later he rose to Minister of Parliamentary Affairs under Prime Minister Francisco Pinto Balsemão. Together with him he was a co-founder, Director and Administrator of the Expresso newspaper, owned by Pinto Balsemão. He was also a founder of Sedes. He worked with another newspaper, Semanário, between 1983 and 1987. He started as a political analyst and pundit on the radio broadcaster TSF with his Exams, in which he gave marks (0 to 20) to the main political players.\n\n
+    </string>
+
+    <!-- Wonders Of The World -->
+    <string name="great_wall">Great Wall Of China</string>
+    <string name="great_wall_of_china">
+        <b> Location</b>:\t\tAsian-Pacific\n
+        <b> Country</b>:\t\tChina\n\n
+        \t\t\t\tThe Chinese were already familiar with the techniques of wall-building by the time of the Spring and Autumn period between the 8th and 5th centuries BC. During this time and the subsequent Warring States period, the states of Qin, Wei, Zhao, Qi, Han, Yan, and Zhongshan all constructed extensive fortifications to defend their own borders. Built to withstand the attack of small arms such as swords and spears, these walls were made mostly of stone or by stamping earth and gravel between board frames.\n\n
+        \t\t\t\tKing Zheng of Qin conquered the last of his opponents and unified China as the First Emperor of the Qin dynasty (\"Qin Shi Huang\") in 221 BC. Intending to impose centralized rule and prevent the resurgence of feudal lords, he ordered the destruction of the sections of the walls that divided his empire among the former states. To position the empire against the Xiongnu people from the north, however, he ordered the building of new walls to connect the remaining fortifications along the empire\'s northern frontier. \"Build and move on\" was a central guiding principle in constructing the wall, implying that the Chinese were not erecting a permanently fixed border.\n\n
+        \t\t\t\tTransporting the large quantity of materials required for construction was difficult, so builders always tried to use local resources. Stones from the mountains were used over mountain ranges, while rammed earth was used for construction in the plains. There are no surviving historical records indicating the exact length and course of the Qin walls. Most of the ancient walls have eroded away over the centuries, and very few sections remain today. The human cost of the construction is unknown, but it has been estimated by some authors that hundreds of thousands of workers died building the Qin wall. Later, the Han, the Northern dynasties and the Sui all repaired, rebuilt, or expanded sections of the Great Wall at great cost to defend themselves against northern invaders. The Tang and Song dynasties did not undertake any significant effort in the region. Dynasties founded by non-Han ethnic groups also built their border walls: the Xianbei-ruled Northern Wei, the Khitan-ruled Liao, Jurchen-led Jin and the Tangut-established Western Xia, who ruled vast territories over Northern China throughout centuries, all constructed defensive walls but those were located much to the north of the other Great Walls as we know it, within China\'s autonomous region of Inner Mongolia and in modern-day Mongolia itself.\n\n
     </string>
 
     </resources>

@@ -31,7 +31,8 @@ public class FragmentDeSousa extends Fragment {
         imageViewDeSousa = view.findViewById(R.id.imageViewLeader);
         progressBarDeSousa = view.findViewById(R.id.progressBarLeader);
         Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/"+
-                "Marcelo_Rebelo_de_Sousa_%28Bicenten%C3%A1rio_da_Independ%C3%AAncia_do_Brasil%29.jpg/220px-Marcelo_Rebelo_de_Sousa_%28Bicenten%C3%A1rio_da_Independ%C3%AAncia_do_Brasil%29.jpg").into(imageViewDeSousa, new Callback() {
+                "Marcelo_Rebelo_de_Sousa_%28Bicenten%C3%A1rio_da_Independ%C3%AAncia_do_Brasil%29.jpg/"+
+                "220px-Marcelo_Rebelo_de_Sousa_%28Bicenten%C3%A1rio_da_Independ%C3%AAncia_do_Brasil%29.jpg").into(imageViewDeSousa, new Callback() {
             @Override
             public void onSuccess() {
                 progressBarDeSousa.setVisibility(View.GONE);
