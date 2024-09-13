@@ -14,6 +14,8 @@ import com.google.android.material.tabs.TabLayoutMediator;
 * In this WondersActivity Class: initialize the the tabLayout and the viewPager2
 * Create an object of the ViewPagerAdapterWonders class; this will contain 2 arguments: getSupportFragmentManager() and getLifecycle()
 * Attached the adapter to the viewPager2 in order to show the fragments in the Activity
+* Using the switch statement and the position of the fragment, set the title of the tab within the TabLayoutMediator
+* tabLayoutMediator.attach() will attach the tabLayouts to the viewPager2
 */
 public class WondersActivity extends AppCompatActivity {
     private TabLayout tabLayoutWonders;
@@ -48,6 +50,9 @@ public class WondersActivity extends AppCompatActivity {
                         break;
                     case 4:
                         tab.setText("Petra");
+                        break;
+                    case 5:
+                        tab.setText("The Pyramid Of Giza");
                         break;
                 }
             }

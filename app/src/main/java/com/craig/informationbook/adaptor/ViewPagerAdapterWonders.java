@@ -10,6 +10,7 @@ import com.craig.informationbook.fragments.Wonders.FragmentChrisRedeemer;
 import com.craig.informationbook.fragments.Wonders.FragmentColosseum;
 import com.craig.informationbook.fragments.Wonders.FragmentGreatWall;
 import com.craig.informationbook.fragments.Wonders.FragmentPetra;
+import com.craig.informationbook.fragments.Wonders.FragmentPyramid;
 import com.craig.informationbook.fragments.Wonders.FragmentTajMahal;
 
 public class ViewPagerAdapterWonders extends FragmentStateAdapter {
@@ -37,6 +38,9 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
             case 4:
                 fragment = FragmentPetra.newInstance();
                 break;
+            case 5:
+                fragment = FragmentPyramid.newInstance();
+                break;
             default:
                 return null;
         }
@@ -44,6 +48,6 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
     }
     @Override
     public int getItemCount(){
-        return 5;
+        return 6;
     }
 }
