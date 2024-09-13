@@ -12,6 +12,7 @@ import com.craig.informationbook.fragments.Wonders.FragmentGreatWall;
 import com.craig.informationbook.fragments.Wonders.FragmentPetra;
 import com.craig.informationbook.fragments.Wonders.FragmentPyramid;
 import com.craig.informationbook.fragments.Wonders.FragmentTajMahal;
+import com.craig.informationbook.fragments.Wonders.FragmentVictoriaFalls;
 
 public class ViewPagerAdapterWonders extends FragmentStateAdapter {
     public ViewPagerAdapterWonders(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
@@ -41,6 +42,9 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
             case 5:
                 fragment = FragmentPyramid.newInstance();
                 break;
+            case 6:
+                fragment = FragmentVictoriaFalls.newInstance();
+                break;
             default:
                 return null;
         }
@@ -48,6 +52,6 @@ public class ViewPagerAdapterWonders extends FragmentStateAdapter {
     }
     @Override
     public int getItemCount(){
-        return 6;
+        return 7;
     }
 }

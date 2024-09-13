@@ -54,6 +54,12 @@ public class WondersActivity extends AppCompatActivity {
                     case 5:
                         tab.setText("The Pyramid Of Giza");
                         break;
+                    case 6:
+                        tab.setText("Victoria Falls");
+                        break;
+                    default:
+                        tab.setText("Great Wall Of China");
+                        break;
                 }
             }
         });
