@@ -1,7 +1,4 @@
 package com.craig.informationbook.adaptor;
-
-import static androidx.core.content.ContextCompat.startActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -9,11 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.craig.informationbook.ModelClass;
 import com.craig.informationbook.R;
 import com.craig.informationbook.activity.CountryActivity;
@@ -21,7 +16,6 @@ import com.craig.informationbook.activity.LeadersActivity;
 import com.craig.informationbook.activity.MainActivity;
 import com.craig.informationbook.activity.MuseumsActivity;
 import com.craig.informationbook.activity.WondersActivity;
-
 import java.util.ArrayList;
 
 public class AdaptorClass extends RecyclerView.Adapter<AdaptorClass.CardViewHolder>{
@@ -38,7 +32,6 @@ public class AdaptorClass extends RecyclerView.Adapter<AdaptorClass.CardViewHold
         View view = LayoutInflater.from(context).inflate(R.layout.card_design,parent,false);
         return new CardViewHolder(view);
     }
-
     @Override
     public void onBindViewHolder(@NonNull CardViewHolder holder, int position) {
         ModelClass modelClass = modelList.get(position); //give all the objects in the ArrayList to modelClass object in order.
@@ -69,7 +62,6 @@ public class AdaptorClass extends RecyclerView.Adapter<AdaptorClass.CardViewHold
             }
         }));
     }
-
     @Override
     public int getItemCount() {
         return modelList.size();
