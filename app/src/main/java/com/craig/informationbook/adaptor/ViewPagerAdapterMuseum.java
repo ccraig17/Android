@@ -7,7 +7,10 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
+import com.craig.informationbook.fragments.Museums.FragmentBritishMuseum;
 import com.craig.informationbook.fragments.Museums.FragmentLouvre;
+import com.craig.informationbook.fragments.Museums.FragmentNewYorkMet;
+import com.craig.informationbook.fragments.Museums.FragmentVatican;
 
 public class ViewPagerAdapterMuseum extends FragmentStateAdapter {
     public ViewPagerAdapterMuseum(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
@@ -22,6 +25,15 @@ public class ViewPagerAdapterMuseum extends FragmentStateAdapter {
             case 0:
                 fragment = FragmentLouvre.newFragment();
                 break;
+            case 1:
+                fragment = FragmentVatican.newFragment();
+                break;
+            case 2:
+                fragment = FragmentBritishMuseum.newFragment();
+                break;
+            case 3:
+                fragment = FragmentNewYorkMet.newFragment();
+                break;
             default:
                 return null;
         }
@@ -30,6 +42,6 @@ public class ViewPagerAdapterMuseum extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return 1;
+        return 4;
     }
 }

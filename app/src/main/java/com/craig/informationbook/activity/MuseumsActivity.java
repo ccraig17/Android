@@ -2,12 +2,8 @@ package com.craig.informationbook.activity;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.craig.informationbook.R;
@@ -36,7 +32,15 @@ public class MuseumsActivity extends AppCompatActivity {
                     case 0:
                         tab.setText(R.string.louvre);
                         break;
-
+                    case 1:
+                        tab.setText(R.string.vatican);
+                        break;
+                    case 2:
+                        tab.setText(R.string.british_museum);
+                        break;
+                    case 3:
+                        tab.setText(R.string.newyork_metropolitan_museum);
+                        break;
                 }
             }
         });
