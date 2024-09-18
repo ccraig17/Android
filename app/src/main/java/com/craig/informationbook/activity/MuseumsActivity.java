@@ -41,6 +41,10 @@ public class MuseumsActivity extends AppCompatActivity {
                     case 3:
                         tab.setText(R.string.newyork_metropolitan_museum);
                         break;
+                    case 4:
+                        tab.setText(R.string.ethiopian_museum);
+                        break;
+
                 }
             }
         });
